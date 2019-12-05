@@ -1,0 +1,16 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/ 
+      suffix: .jsp
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/study
+server:
+  address: 127.0.0.1
+  port: 80
